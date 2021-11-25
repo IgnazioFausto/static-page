@@ -6,6 +6,26 @@
 body {
   background-color: white;
 }
+img.btn-donate-small {
+  width: auto;
+  height: 50px;
+  margin: 1vh;
+}
+.btn-donate {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  width: 20rem;
+}
+a.a-donate:hover {
+  opacity: 0.9;
+}
+.div-donate {
+  display: flex;
+  position: relative;
+  margin: 86.5vh auto;
+  width: 20rem;
+}
 /* portada */
 .portada {
   width: 100%;
@@ -139,8 +159,8 @@ a:hover:after {
 }
 .img-mision {
   width: 50%;
-  height: 60vh;
-  margin: 0;
+  height: 50vh;
+  margin: 0 0 0 0;
   display: block;
   position: absolute;
 }
@@ -148,12 +168,9 @@ a:hover:after {
   position: absolute;
   display: block;
   width: 30%;
-  margin-left: 55%;
+  margin-left: 51%;
 }
-.textoMision-sub {
-  position: relative;
-  margin-left: 55%;
-}
+
 /* NOSOTROS */
 .img-nos {
   width: 50%;
@@ -164,24 +181,21 @@ a:hover:after {
   position: absolute;
   display: block;
   width: 30%;
-  margin: 0 10%;
-}
-.textoNos-sub {
-  position: relative;
-  margin-left: 10%;
+  margin: 0 19%;
+  text-align: end;
 }
 /* CONTACTO */
 .textoContacto {
   position: absolute;
   display: block;
   width: 30%;
-  margin: 0 10%;
-}
-.textoContacto-sub {
-  position: relative;
-  margin-left: 10%;
+  margin: 0 20%;
+  text-align: end;
 }
 /* form */
+form {
+  margin: 10% 1rem;
+}
 label {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -192,17 +206,17 @@ input.form-control {
   border-color: #41e2d2;
 }
 input#name:focus {
-  border-color: #dbf288 ;
+  border-color: #dbf288;
 }
 input#surname:focus {
-  border-color: #dbf288 ;
+  border-color: #dbf288;
 }
 input#tel:focus {
-  border-color: #dbf288 ;
+  border-color: #dbf288;
 }
 button.btn-submit {
   font-size: 1rem;
-  padding: .5rem 3rem;
+  padding: 0.5rem 3rem;
   margin: 1.5rem;
   border-radius: 5px;
   border-width: 0px;
@@ -211,12 +225,17 @@ button.btn-submit {
 }
 /* FOOTER */
 .contenedor-footer {
-  padding:2rem;
+  padding: 2rem;
   width: 100%;
   height: 40vh;
   background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
 }
-
+.ul-footer-rrss {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+  background-color: transparent;
+}
 a.a-footer-f {
   color: #3b5998;
 }
@@ -226,11 +245,12 @@ a.a-footer-y {
 a.a-footer-w {
   color: #00bb2d;
 }
-a.a-footer:before, a-footer:after {
+a.a-footer:before,
+a-footer:after {
   width: 0%;
-} 
+}
 a.a-footer:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 a.a-footer:hover:after {
   width: 0%;
@@ -240,15 +260,17 @@ ul.ul-footer {
 }
 li.li-footer {
   font-size: 1.4rem;
-  margin:1rem auto;
+  margin: 1rem auto;
 }
 a.a-footer:hover {
-  opacity: .8;
+  opacity: 0.8;
   text-decoration: none;
 }
 
 /* texts */
-.textoContacto, .textoMision, .textoNos {
+.textoContacto,
+.textoMision,
+.textoNos {
   padding: 0rem;
   font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
