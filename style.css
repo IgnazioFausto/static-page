@@ -6,7 +6,24 @@
 body {
   background-color: white;
 }
-/* nav */
+/* portada */
+.portada {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/portada.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NAV */
+
+.brandLogo {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0 1rem 1rem;
+}
+
 h1 {
   display: inline-block;
   margin: auto 0;
@@ -16,11 +33,11 @@ h1 {
 }
 h1 a {
   text-decoration: none;
-  color:transparent;
+  color: transparent;
   color: black;
 }
 h1 a:hover {
-    color: black;
+  color: black;
 }
 h1 a:after {
   content: "";
@@ -50,19 +67,19 @@ nav {
   position: fixed;
   margin-left: 1rem;
   z-index: 3;
-  border-end-start-radius: 100px ;
+  border-end-start-radius: 100px;
   border-start-start-radius: 100px;
 }
-ul {
+ul.ul-nav {
   display: flex;
   list-style: none;
   margin: 1rem 0 1rem 25%;
   background-color: transparent;
   padding-left: 0;
 }
-li {
+li.li-nav {
   margin: auto 2rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
@@ -104,17 +121,21 @@ a:hover:after {
   margin: 0;
   padding: 0;
 }
+/* NUESTRA MISION */
 .contenedor-nuestraMision {
   margin: 0rem auto;
   padding: 5rem 0;
   height: 100vh;
 }
 .nuestraMision-title {
-  font-size: 4rem;
+  font-size: 3.7rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   margin: 4rem auto;
   text-align: center;
+  background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .img-mision {
   width: 50%;
@@ -133,42 +154,103 @@ a:hover:after {
   position: relative;
   margin-left: 55%;
 }
+/* NOSOTROS */
 .img-nos {
-    width: 50%;
-    height: 50vh;
-    margin-left: 50%;
+  width: 50%;
+  height: 50vh;
+  margin-left: 50%;
 }
 .textoNos {
-    position: absolute;
-    display: block;
-    width: 30%;
-    margin: 0 10%;
+  position: absolute;
+  display: block;
+  width: 30%;
+  margin: 0 10%;
 }
 .textoNos-sub {
-    position: relative;
-    margin-left: 10%;
+  position: relative;
+  margin-left: 10%;
 }
+/* CONTACTO */
+.textoContacto {
+  position: absolute;
+  display: block;
+  width: 30%;
+  margin: 0 10%;
+}
+.textoContacto-sub {
+  position: relative;
+  margin-left: 10%;
+}
+/* form */
+label {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+input.form-control {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #41e2d2;
+}
+input#name:focus {
+  border-color: #dbf288 ;
+}
+input#surname:focus {
+  border-color: #dbf288 ;
+}
+input#tel:focus {
+  border-color: #dbf288 ;
+}
+button.btn-submit {
+  font-size: 1rem;
+  padding: .5rem 3rem;
+  margin: 1.5rem;
+  border-radius: 5px;
+  border-width: 0px;
+  background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
+  font-family: "Lato", sans-serif;
+}
+/* FOOTER */
 .contenedor-footer {
-  margin-top: 5rem;
-  padding: 10%;
-  padding-top: 20%;
+  padding:2rem;
   width: 100%;
-  height: 80vh;
-  background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,0.5802696078431373) 30%, rgba(65,226,210,1) 62%, rgba(219,242,136,1) 100%);
+  height: 40vh;
+  background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
 }
-.brandLogo {
-  width: 5rem;
-  height: 5rem;
-  margin: 1rem 0 1rem 1rem;
+
+a.a-footer-f {
+  color: #3b5998;
 }
-/* portada */
-.portada {
-  width: 100%;
-  height: 100vh;
-  background-image: url(./img/portada.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+a.a-footer-y {
+  color: #c4302b;
+}
+a.a-footer-w {
+  color: #00bb2d;
+}
+a.a-footer:before, a-footer:after {
+  width: 0%;
+} 
+a.a-footer:hover {
+  text-decoration:none;
+}
+a.a-footer:hover:after {
+  width: 0%;
+}
+ul.ul-footer {
+  list-style: none;
+}
+li.li-footer {
+  font-size: 1.4rem;
+  margin:1rem auto;
+}
+a.a-footer:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+
+/* texts */
+.textoContacto, .textoMision, .textoNos {
+  padding: 0rem;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(55, 67, 99);
 }
