@@ -14,7 +14,7 @@ img.btn-donate-small {
 .btn-donate {
   cursor: pointer;
   display: flex;
-  position: relative;
+  position: fixed;
   width: 20rem;
 }
 a.a-donate:hover {
@@ -22,9 +22,10 @@ a.a-donate:hover {
 }
 .div-donate {
   display: flex;
-  position: relative;
-  margin: 86.5vh auto;
-  width: 20rem;
+  position: static;
+  padding: 0;
+  margin:40vh auto;
+  width: auto;
 }
 /* portada */
 .portada {
@@ -85,7 +86,7 @@ nav {
   background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
   margin-top: 0.5rem;
   position: fixed;
-  margin-left: 1rem;
+  margin-left: 0rem;
   z-index: 3;
   border-end-start-radius: 100px;
   border-start-start-radius: 100px;
@@ -93,13 +94,13 @@ nav {
 ul.ul-nav {
   display: flex;
   list-style: none;
-  margin: 1rem 0 1rem 25%;
+  margin: 1rem 0;
   background-color: transparent;
-  padding-left: 0;
+  padding-right: 5%;
 }
 li.li-nav {
-  margin: auto 2rem;
-  font-size: 1.7rem;
+  margin: auto 1rem;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
@@ -109,7 +110,7 @@ li a {
   transition-duration: 1s;
   display: inline-block;
 }
-li a:hover {
+a.a-nav:hover {
   color: rgba(0, 0, 0, 0.6);
 }
 a:before,
@@ -224,17 +225,53 @@ button.btn-submit {
   font-family: "Lato", sans-serif;
 }
 /* FOOTER */
+.footer-mini {
+  background: rgba(0, 0, 0, 0.788);
+  padding: .2rem auto;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
 .contenedor-footer {
   padding: 2rem;
   width: 100%;
   height: 40vh;
   background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
 }
-.ul-footer-rrss {
+.h4Legales {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+.a-legales {
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  
+}
+a.a-legales:before,
+a-legales:after {
+  width: 0%;
+}
+a.a-legales:hover:after {
+  width: 0%;
+}
+a.a-legales {
+  list-style: none;
+}
+ul.ul-footer-rrss {
   display: flex;
   list-style: none;
-  margin: auto 0;
+  margin: auto;
   background-color: transparent;
+  padding: 0;
+  width: 20%;
+}
+ul.ul-footer li {
+  margin: 0;
+  padding: 0;
 }
 a.a-footer-f {
   color: #3b5998;
@@ -249,9 +286,6 @@ a.a-footer:before,
 a-footer:after {
   width: 0%;
 }
-a.a-footer:hover {
-  text-decoration: none;
-}
 a.a-footer:hover:after {
   width: 0%;
 }
@@ -260,11 +294,7 @@ ul.ul-footer {
 }
 li.li-footer {
   font-size: 1.4rem;
-  margin: 1rem auto;
-}
-a.a-footer:hover {
-  opacity: 0.8;
-  text-decoration: none;
+  margin: 1rem 0;
 }
 
 /* texts */
