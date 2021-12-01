@@ -1,29 +1,8 @@
-@media (max-width: 1440px) {
+@media (max-width: 1024px) {
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-      }
-      img.btn-donate-small {
-        width: auto;
-        height: 50px;
-        margin: 1vh;
-      }
-      .btn-donate {
-        cursor: pointer;
-        display: flex;
-        position: fixed;
-        width: 20rem;
-      }
-      a.a-donate:hover {
-        opacity: 0.9;
-      }
-      .div-donate {
-        display: flex;
-        position: static;
-        padding: 0;
-        margin:40vh auto;
-        width: auto;
       }
       /* portada */
       .portada {
@@ -81,7 +60,7 @@
         display: flex;
         width: 100%;
         justify-content: start;
-        background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
+        background: linear-gradient(135deg, white 10%, #41e2d2, #dbf288);
         margin-top: 0.5rem;
         position: fixed;
         margin-left: 0rem;
@@ -94,11 +73,11 @@
         list-style: none;
         margin: 1rem 0;
         background-color: transparent;
-        padding-right: 5%;
+        padding-right: 2%;
       }
       li.li-nav {
         margin: auto 1rem;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         font-family: "Montserrat", sans-serif;
         font-weight: 800;
       }
@@ -157,7 +136,7 @@
         -webkit-text-fill-color: transparent;
       }
       .img-mision {
-        width: 50%;
+        width:50%;
         height: 50vh;
         margin: 0 0 0 0;
         display: block;
@@ -166,8 +145,8 @@
       .textoMision {
         position: absolute;
         display: block;
-        width: 38%;
-        margin: 0 11%;
+        width: 45%;
+        margin: 0 10%;
         margin-left: 52%;
       }
       
@@ -217,8 +196,8 @@
       }
       button.btn-submit {
         font-size: 1rem;
-        padding: 0.5rem 3rem;
-        margin: 1.5rem;
+        padding: 0.5rem 1rem;
+        margin: 1rem 0;
         border-radius: 5px;
         border-width: 0px;
         background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
@@ -241,6 +220,7 @@
         width: 100%;
         height: 40vh;
         background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
+        margin-top: 30vh;
       }
       .legales, .mapSite {
         padding:0 2%;
@@ -266,12 +246,12 @@
         list-style: none;
       }
       ul.ul-footer-rrss {
-        display: flex;
+        display: inline;
         list-style: none;
-        margin: auto;
+        margin: 0 3rem;
         background-color: transparent;
         padding: 0;
-        width: 28%;
+        width: 10%;
       }
       ul.ul-footer li {
         margin: 0;
@@ -311,7 +291,7 @@
         color: rgb(55, 67, 99);
       }
       .map {
-          width: 90vh;
+          width: 55vh;
           height: 30vh;
           position: relative;
           
