@@ -1,0 +1,319 @@
+@media (max-width: 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      img.btn-donate-small {
+        width: auto;
+        height: 50px;
+        margin: 1vh;
+      }
+      .btn-donate {
+        cursor: pointer;
+        display: flex;
+        position: fixed;
+        width: 20rem;
+      }
+      a.a-donate:hover {
+        opacity: 0.9;
+      }
+      .div-donate {
+        display: flex;
+        position: static;
+        padding: 0;
+        margin:40vh auto;
+        width: auto;
+      }
+      /* portada */
+      .portada {
+        width: 100%;
+        height: 100vh;
+        background-image: url("../img/portada.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      /* NAV */
+      
+      .brandLogo {
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem 0 1rem 1rem;
+      }
+      
+      h1 {
+        display: inline-block;
+        margin: auto 0;
+        font-family: "Lora", serif;
+        font-size: 4rem;
+        font-weight: 400;
+      }
+      h1 a {
+        text-decoration: none;
+        color: transparent;
+        color: black;
+      }
+      h1 a:hover {
+        color: black;
+      }
+      h1 a:after {
+        content: "";
+        height: 0px;
+        background: rgba(0, 0, 0, 0);
+        display: block;
+        transition: width 0.3s ease-in-out;
+        margin: 0 auto;
+      }
+      h1 a:before {
+        width: 0%;
+        color: black;
+      }
+      .subTitulo {
+        font-family: "Lato", sans-serif;
+        display: inline;
+        font-size: 0.9rem;
+        position: absolute;
+        margin: 1.6rem 8.5rem;
+      }
+      nav {
+        display: flex;
+        width: 100%;
+        justify-content: start;
+        background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
+        margin-top: 0.5rem;
+        position: fixed;
+        margin-left: 0rem;
+        z-index: 3;
+        border-end-start-radius: 100px;
+        border-start-start-radius: 100px;
+      }
+      ul.ul-nav {
+        display: flex;
+        list-style: none;
+        margin: 1rem 0;
+        background-color: transparent;
+        padding-right: 5%;
+      }
+      li.li-nav {
+        margin: auto 1rem;
+        font-size: 1.5rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+      }
+      li a {
+        color: rgba(0, 0, 0, 0.9);
+        text-decoration: none;
+        transition-duration: 1s;
+        display: inline-block;
+      }
+      a.a-nav:hover {
+        color: rgba(0, 0, 0, 0.6);
+      }
+      a:before,
+      a:after {
+        content: "";
+        height: 2px;
+        background: rgba(0, 0, 0, 0.63);
+        display: block;
+        transition: width 0.3s ease-in-out;
+        margin: 0 auto;
+      }
+      
+      a:before {
+        width: 100%;
+      }
+      
+      a:after {
+        width: 0;
+      }
+      
+      a:hover:before {
+        width: 0;
+      }
+      
+      a:hover:after {
+        width: 100%;
+      }
+      .contenedor-nav {
+        margin: 0 0 0 1rem;
+        padding: 0;
+      }
+      /* NUESTRA MISION */
+      .contenedor-nuestraMision {
+        margin: 0rem auto;
+        padding: 5rem 0;
+        height: 100vh;
+      }
+      .nuestraMision-title {
+        font-size: 3.7rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        margin: 4rem auto;
+        text-align: center;
+        background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .img-mision {
+        width: 50%;
+        height: 50vh;
+        margin: 0 0 0 0;
+        display: block;
+        position: absolute;
+      }
+      .textoMision {
+        position: absolute;
+        display: block;
+        width: 38%;
+        margin: 0 11%;
+        margin-left: 52%;
+      }
+      
+      /* NOSOTROS */
+      .img-nos {
+        width: 50%;
+        height: 50vh;
+        margin-left: 50%;
+        margin-top: .5%;
+      }
+      .textoNos {
+        position: absolute;
+        display: block;
+        width: 40%;
+        margin: 0 8%;
+        text-align: end;
+      }
+      /* CONTACTO */
+      .textoContacto {
+        position: absolute;
+        display: block;
+        width: 40%;
+        margin: 0 10%;
+        text-align: end;
+      }
+      /* form */
+      form {
+        margin: 10% 1rem;
+      }
+      label {
+        font-family: "Lato", sans-serif;
+        font-size: 1rem;
+      }
+      input.form-control {
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: #41e2d2;
+      }
+      input#name:focus {
+        border-color: #dbf288;
+      }
+      input#surname:focus {
+        border-color: #dbf288;
+      }
+      input#tel:focus {
+        border-color: #dbf288;
+      }
+      button.btn-submit {
+        font-size: 1rem;
+        padding: 0.5rem 3rem;
+        margin: 1.5rem;
+        border-radius: 5px;
+        border-width: 0px;
+        background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
+        font-family: "Lato", sans-serif;
+      }
+      /* FOOTER */
+      .footer-mini {
+        background: rgba(0, 0, 0, 0.788);
+        padding: 0rem auto;
+        margin: 0 auto;
+        width: 100%;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 100;
+        text-align: center;
+        height: auto;
+      }
+      .contenedor-footer {
+        padding: 2rem;
+        width: 100%;
+        height: 40vh;
+        background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
+      }
+      .legales, .mapSite {
+        padding:0 2%;
+      }
+      .h4Legales {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2rem;
+      }
+      .a-legales {
+        color: black;
+        font-family: "Lato", sans-serif;
+        font-size: 1.5rem;
+        
+      }
+      a.a-legales:before,
+      a-legales:after {
+        width: 0%;
+      }
+      a.a-legales:hover:after {
+        width: 0%;
+      }
+      a.a-legales {
+        list-style: none;
+      }
+      ul.ul-footer-rrss {
+        display: flex;
+        list-style: none;
+        margin: auto;
+        background-color: transparent;
+        padding: 0;
+        width: 28%;
+      }
+      ul.ul-footer li {
+        margin: 0;
+        padding: 0;
+      }
+      a.a-footer-f {
+        color: #3b5998;
+      }
+      a.a-footer-y {
+        color: #c4302b;
+      }
+      a.a-footer-w {
+        color: #00bb2d;
+      }
+      a.a-footer:before,
+      a-footer:after {
+        width: 0%;
+      }
+      a.a-footer:hover:after {
+        width: 0%;
+      }
+      ul.ul-footer {
+        list-style: none;
+      }
+      li.li-footer {
+        font-size: 1.4rem;
+        margin: 1rem 0;
+      }
+      
+      /* texts */
+      .textoContacto,
+      .textoMision,
+      .textoNos {
+        padding: 0rem;
+        font-size: 1.5rem;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(55, 67, 99);
+      }
+      .map {
+          width: 90vh;
+          height: 30vh;
+          position: relative;
+          
+      }
+  }

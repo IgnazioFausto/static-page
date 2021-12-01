@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: white;
-}
 img.btn-donate-small {
   width: auto;
   height: 50px;
@@ -139,7 +136,7 @@ a:hover:after {
   width: 100%;
 }
 .contenedor-nav {
-  margin: 0;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 /* NUESTRA MISION */
