@@ -119,8 +119,8 @@
   }
   /* NUESTRA MISION */
   .contenedor-nuestraMision {
-    margin: 4rem auto;
-    padding: 5rem 0;
+    margin: 2rem auto;
+    padding: 2rem 0;
     height: 100vh;
   }
   .nuestraMision-title {
@@ -135,7 +135,7 @@
   }
   .img-mision {
     width: 50%;
-    height: 60vh;
+    height: 50vh;
     margin: 0 0 0 0;
     display: block;
     position: absolute;
