@@ -5,14 +5,14 @@
 
 /* NAV */
 .brandLogo {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 4rem;
+  height: 4rem;
   margin: .5rem 0 .5rem .5rem;
 }
 
 h1 {
   display: inline-block;
-  margin: -0.8rem 0 0 0;
+  margin: -0.8rem 0 0 .3rem;
   font-family: "Lora", serif;
   font-size: 2.2rem;
   font-weight: 500;
@@ -37,6 +37,10 @@ h1 a:before {
   width: 0%;
   color: black;
 }
+.navbar-toggler {
+  margin: 0rem;
+}
+ 
 .subTitulo {
   font-family: "Lato", sans-serif;
   display: inline-block;
@@ -48,11 +52,10 @@ h1 a:before {
 nav {
   display: flex;
   width: 100%;
-  justify-content: start;
   background: linear-gradient(135deg, white 20%, #41e2d2, #dbf288);
   margin-top: 0.5rem;
   position: fixed;
-  margin-left: 0;
+  margin-left: 0rem;
   z-index: 3;
   border-end-start-radius: 60px;
   border-start-start-radius: 60px;
@@ -61,7 +64,7 @@ nav {
   position: absolute;
 }
 ul.ul-nav {
-  display: flex;
+  display: contents;
   list-style: none;
   margin: 1rem 0;
   background-color: transparent;
@@ -180,7 +183,7 @@ li.li-footer {
     position: absolute;
     display: block;
     width: 90%;
-    margin: 9rem 5%;
+    margin: 12rem 5%;
     text-align: justify;
   }
   
@@ -194,7 +197,7 @@ li.li-footer {
     position: absolute;
     display: block;
     width: 90%;
-    margin: 11.5rem 5%;
+    margin: 15rem 5%;
     text-align: justify;
   }
   /* CONTACTO */
@@ -288,11 +291,10 @@ li.li-footer {
   ul.ul-footer-rrss {
     display: flex;
     list-style: none;
-    margin: 0rem 0 0 2rem;
+    margin: 0rem;
     background-color: transparent;
     padding: 0;
-    width: 100%;
-    font-size: .6rem;
+    width: 95%;
   }
   ul.ul-footer  {
     padding: 0;

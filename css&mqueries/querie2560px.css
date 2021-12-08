@@ -59,17 +59,17 @@
       nav {
         display: flex;
         width: 100%;
-        justify-content: start;
+        justify-content: center;
         background: linear-gradient(135deg, white 10%, #41e2d2, #dbf288);
         margin-top: 0.5rem;
-        position: fixed;
+        position: absolute;
         margin-left: 0.3rem;
         z-index: 3;
         border-end-start-radius: 100px;
         border-start-start-radius: 100px;
       }
       .navbar {
-        position: fixed;
+        position: absolute;
       }
       ul.ul-nav {
         display: flex;
@@ -132,7 +132,7 @@
         font-size: 3.7rem;
         font-family: "Montserrat", sans-serif;
         font-weight: 800;
-        margin: 5rem auto;
+        margin: 4rem auto;
         text-align: center;
         background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
         -webkit-background-clip: text;
@@ -172,12 +172,12 @@
         position: absolute;
         display: block;
         width: 40%;
-        margin: 2% 8%;
+        margin: 0 10%;
         text-align: end;
       }
       /* form */
       form {
-        margin: 1% .5rem;
+        margin: 10% 1rem;
       }
       label {
         font-family: "Lato", sans-serif;
