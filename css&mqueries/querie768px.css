@@ -169,6 +169,34 @@
     text-align: end;
   }
   /* CONTACTO */
+  .contenedor-contacto {
+    margin: 22rem auto 0 auto;
+    padding: 1rem 0;
+    height: 100%;
+    display: block;
+    position: relative;
+  } 
+  .contacto-title {
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin: 4rem auto;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .row-contact {
+      justify-content: safe;
+  }
+  .textoContacto {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0rem auto;
+    text-align: justify;
+  }
   .row-contact {
       justify-content: safe;
   }

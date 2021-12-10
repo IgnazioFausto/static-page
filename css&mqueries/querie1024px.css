@@ -128,7 +128,7 @@
   .contenedor-nuestraMision {
     margin: 0rem auto;
     padding: 9rem 0;
-    height: 130vh;
+    height: 800px;
   }
   .nuestraMision-title {
     font-size: 3.7rem;
@@ -142,7 +142,7 @@
   }
   .img-mision {
     width: 50%;
-    height: 50vh;
+    height: 20rem;
     margin: 0 0 0 0;
     display: block;
     position: absolute;
@@ -158,7 +158,7 @@
   /* NOSOTROS */
   .img-nos {
     width: 50%;
-    height: 50vh;
+    height: 20rem;
     margin-left: 50%;
     margin-top: 0.5%;
   }
@@ -178,9 +178,31 @@
     justify-content: center;
     text-align: justify;
   }
+  .contenedor-contacto {
+    margin: 22rem auto 0 auto;
+    padding: 1rem 0;
+    height: 100%;
+    display: block;
+    position: relative;
+  } 
+  .contacto-title {
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin: 4rem auto;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(135deg, #41e2d2 30%, #dbf288);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .row-contact {
+      justify-content: safe;
+  }
+
   /* form */
   form {
-    margin:8rem auto 0 -120%;
+    margin:10rem auto 0 -120%;
   }
   label {
     font-family: "Lato", sans-serif;
@@ -219,14 +241,14 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     text-align: center;
-    height: auto;
+    height: 2rem;
   }
   .contenedor-footer {
-    padding: 2rem;
+    padding: 3rem;
     width: 100%;
-    height: 40vh;
+    height:20rem;
     background: linear-gradient(135deg, white 1%, #41e2d2, #dbf288);
-    margin-top: 30vh;
+    margin-top:10rem;
   }
   .legales,
   .mapSite {
@@ -297,8 +319,8 @@
     color: rgb(55, 67, 99);
   }
   .map {
-    width: 55vh;
-    height: 30vh;
+    width: 100%;
+    height:100%;
     position: relative;
   }
 }
